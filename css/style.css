@@ -50,9 +50,14 @@ address {
 .auth-nav a:focus {
   color: var(--button-filter);
 }
-
+.section-hero {
+  background-color: var(--second-bg);
+}
 .title-hero {
   background-color: var(--second-bg);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--wite-color);
   font-style: normal;
   font-weight: 900;

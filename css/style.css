@@ -4,6 +4,7 @@
   --wite-color: #ffffff;
   --button-filter: #2196f3;
   --second-bg: #2f303a;
+  --bg-sectiom: #f5f4fa;
 }
 ul {
   list-style: none;
@@ -91,6 +92,9 @@ address {
   line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.section3 {
+  background-color: var(--bg-sectiom);
 }
 .title-section-3 {
   color: var(--title-text);

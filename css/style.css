@@ -1,0 +1,81 @@
+:root {
+  --title-text: #212121;
+  --text-description: #757575;
+  --wite-color: #ffffff;
+  --button-filter: #2196f3;
+  --second-bg: #2f303a;
+}
+ul {
+  list-style: none;
+}
+address {
+  font-style: normal;
+}
+
+.body {
+  background-color: var(--wite-color);
+  color: var(--text-description);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+.logo {
+  color: var(--button-filter);
+}
+/*site-nav*/
+.site-nav a {
+  color: var(--title-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--button-filter);
+}
+/*auth-nav*/
+.auth-nav a {
+  color: var(--title-text);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: var(--button-filter);
+}
+
+.title-hero {
+  background-color: var(--second-bg);
+  color: var(--wite-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+.button {
+  background-color: var(--button-filter);
+  color: var(--wite-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+}
+.title-section-1 {
+}
+.button2 {
+  color: var(--title-text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.button2:hover,
+.button2:focus {
+  color: var(--button-filter);
+}

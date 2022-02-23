@@ -14,7 +14,9 @@ ul {
 address {
   font-style: normal;
 }
-
+.hide {
+  display: none;
+}
 body {
   background-color: var(--wite-color);
   color: var(--text-description);
@@ -125,7 +127,6 @@ body {
 }
 .title-section-1 {
   color: var(--title-text);
-  font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -134,7 +135,6 @@ body {
 
 .description-title-section-1 {
   color: var(--text-description);
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -183,14 +183,11 @@ body {
 }
 .description-img-portfolio {
   color: var(--title-text);
-
-  font-weight: bold;
   font-size: 18px;
   line-height: 2;
 }
 .locations-img {
   color: var(--text-description);
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.8;
 }

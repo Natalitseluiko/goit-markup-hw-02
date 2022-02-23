@@ -24,18 +24,25 @@ body {
 .logo {
   color: var(--button-filter);
   text-decoration: none;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
-.logo-link {
+.logo-header {
   color: var(--logo-color);
   text-decoration: none;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .logo-footer {
-  color: var(--button-filter);
-  text-decoration: none;
-}
-.logo-link-footer {
   color: var(--wite-color);
-  text-decoration: none;
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
 /*site-nav*/
@@ -56,9 +63,8 @@ body {
 }
 .auth-nav-link-footer {
   text-decoration: none;
-  font-weight: normal;
   font-size: 14px;
-  line: height 1.71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-nav);
 }
@@ -164,12 +170,15 @@ body {
 }
 .button2 {
   color: var(--title-text);
+  background-color: var(--bg-sectiom);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  cursor: pointer;
 }
 .button2:hover,
 .button2:focus {
+  color: var(--wite-color);
   background-color: var(--button-filter);
 }
 .description-img-portfolio {

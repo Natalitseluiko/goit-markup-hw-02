@@ -168,7 +168,7 @@ body {
   font-size: 16px;
   line-height: 1.14;
 }
-.button2 {
+.button-portfolio {
   color: var(--title-text);
   background-color: var(--bg-sectiom);
   font-weight: 500;
@@ -176,8 +176,8 @@ body {
   line-height: 1.62;
   cursor: pointer;
 }
-.button2:hover,
-.button2:focus {
+.button-portfolio:hover,
+.button-portfolio:focus {
   color: var(--wite-color);
   background-color: var(--button-filter);
 }
